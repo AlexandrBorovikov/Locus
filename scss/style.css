@@ -1251,6 +1251,7 @@ h6 {
 @media (max-width: 768px) {
   .review__brands {
     flex-wrap: wrap;
+    padding: 0 10px;
   }
 }
 .review__brands-img {
@@ -1630,6 +1631,7 @@ h6 {
   .contact__form button[type=submit] {
     max-width: 200px;
     height: 60px;
+    margin-right: 0px;
   }
 }
 .contact__form button[type=submit]:hover, .contact__form button[type=submit]:focus {
