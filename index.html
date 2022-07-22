@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Locus</title>
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Port+Lligat+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+  <div class="landing-wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__logo-wrap">
+            <a class="header__logo-link" href="">
+              <img class="header__logo-img" src="img/logo-icon.svg" alt="Locus">
+            </a>
+
+            <div class="menu" id="menu">
+              <span></span>
+            </div>
+          </div>
+          <nav class="header__nav nav" id="nav">
+            <ul class="nav__list" >
+                <li class="nav__item">
+                    <a class="nav__link active" data-goto=".inspiration" href="#">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" data-goto=".contact" href="#">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" data-goto=".project" href="#">Location</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" data-goto=".mission" href="#">About Us</a>
+                </li>
+            </ul>
+ 
+          </nav>
+          <button class="register-btn">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="inspiration">
+      <div class="inspiration__wrap">
+        <div class="inspiration__left-wrap">
+          <h2 class="inspiration__title animation-text">Get the inspiration
+            of interior design 
+            here</h2>
+          <p class="inspiration__text">architecture not only about engineering, it even 
+            lands to art and aesthetics. With us, you will get 
+            a residentical design with an extraordinary touch 
+            of art.</p>
+          <a class="inspiration__link" href="#">Let’s go</a>
+        </div>
+        <div class="inspiration__right-wrap">
+          <div class="inspiration__content-bg">
+            <div class="inspiration__content-wrap">
+              <img class="inspiration__content-img" src="img/image1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="example">
+      <div class="example__wrap">
+        <h2 class="example__title">How it works</h2>
+        <p class="example__text">Spice up your space even simpler than you think</p>
+        <div class="example__content-wrap">
+          <div class="example__content">
+            <div class="example__img-wrap">
+              <img class="example__img" src="img/example.jpg" alt="">
+            </div>
+            <div class="example__content-discription">
+              <p class="example__content-text">We provide design and build 
+                for commercial building, 
+                interior and furniture to improve 
+                the better life. 
+              </p>
+
+              <div class="example__video">
+                <a class="example__content-link" href="#">S E E  V I D E O</a>
+                <button class="example__play" >
+                  <a class="triangle-wrap" href="#">
+                    <div class="triangle-right"></div>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission">
+          <div class="mission__img-wrap">
+            <img class="mission__img" src="img/mission.jpg" alt="">
+          </div>
+          <div class="mission__text-wrap">
+            <h4 class="mission__title">Our mission is to deliver aesthetic visual for your home</h4>
+            <p class="mission__text">By applying bacis psychology principles, 
+              we are going to explain how perception 
+              works and how we can use this understanding 
+              to maximise the space that we occupy in 
+              our homes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project">
+      <div class="project__wrap">
+        <div class="project__txt-wrap">
+          <h2 class="project__title">Our project</h2>
+          <p class="project__text">Introducing our first official project</p>
+          <div class="project__lines lines"></div>
+        </div>
+
+        <div class="project__instance">
+          <div class="project__instance-item">
+            <h4 class="project__instance-title">Project Livingroom</h4>
+            <p class="project__instance-text">A simple guide to create the perfect livingroom for . Night Watc works beautifully in a wide gamut of arrangements.</p>
+
+            <div class="project__wrap-img">
+              <div class="project__item-img">
+                <div class="project__body-img">
+                  <img class="project__img" src="img/project1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="project__instance-item project__instance-item--middle">
+            <div class="project__wrap-img project__wrap-img--middle">
+              <div class="project__item-img">
+                <div class="project__body-img">
+                  <img class="project__img" src="img/project2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <h4 class="project__instance-title project__instance-title--middle">Project workspace</h4>
+            <p class="project__instance-text">A simple guide to create the perfect livingroom for . Night Watc works beautifully in a wide gamut of arrangements.</p>
+          </div>
+
+          <div class="project__instance-item">
+            <h4 class="project__instance-title">Library</h4>
+            <p class="project__instance-text">A simple guide to create the perfect livingroom for . Night Watc works beautifully in a wide gamut of arrangements.</p>
+
+              <div class="project__wrap-img">
+                <div class="project__item-img">
+                  <div class="project__body-img">
+                    <img class="project__img" src="img/project3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="review__wrap">
+        <h2 class="review__title">Testimonial</h2>
+        <div class="review__brands">
+          <img class="review__brands-img" src="img/brand1.svg" alt="K.L.A.M.B.Y">
+          <img class="review__brands-img" src="img/brand2.svg" alt="MauOutFit">
+          <img class="review__brands-img" src="img/brand3.svg" alt="Zalora">
+          <img class="review__brands-img" src="img/brand4.svg" alt="Geuli&">
+        </div>
+
+        <div class="review__content">
+          <div class="review__wrap-img">
+            <img class="review__img" src="img/review.jpg" alt="">
+          </div>
+
+          <div class="review__wrap-content">
+            <div class="review__statistic">
+              <div class="review__statistic-item">
+                <span class="review__statistic-num">105</span>
+                <span class="review__statistic-text">project done</span>
+              </div>
+              <div class="review__statistic-item">
+                <span class="review__statistic-num">12</span>
+                <span class="review__statistic-text">years of experience</span>
+              </div>
+              <div class="review__statistic-item">
+                <span class="review__statistic-num">10+</span>
+                <span class="review__statistic-text">big company partnership</span>
+              </div>
+            </div>
+
+            <div class="review__comment-wrap">
+              <blockquote class="review__quote">
+                "Not able to tell you how happy I am with interior design. 
+                Interior design has completely surpassed our expectations. 
+                Interior design saved my business. Interior design is worth 
+                much more than I paid."
+              </blockquote>
+              <span class="review__quote-author">- Roscoe</span>
+              <span class="review__quote-symbol">“</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact__wrap">
+        <div class="contact__inner-left">
+          <h2 class="contact__title">Contact Us</h2>
+          <p class="contact__text">Have any questions? Want help
+            before getting started?</p>
+          <div class="lines"></div>
+        </div>
+
+        <div class="contact__inner-right">
+          <div class="contact__form-wrap">
+            <form class="contact__form" action="">
+              <input id="name" type="text" placeholder="Full name" required>
+              <input id="email" type="email" placeholder="Email address" required>
+              <textarea name="" id="discription" cols="30" rows="2" placeholder="Description"></textarea>
+
+              <button type="submit">Send now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
